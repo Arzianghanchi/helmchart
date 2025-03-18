@@ -3,7 +3,7 @@ name: Helm Docs
 on:
   push:
     branches:
-      - master
+      - test/cancel-previous-workflows
     paths:
       - 'charts/helmchart/**'
       - 'charts/cronjob/**'
